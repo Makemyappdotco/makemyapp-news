@@ -1,0 +1,9 @@
+node_modules/
+npm-debug.log*
+.DS_Store
+scheduler.log
+output/scheduler.out
+output/scheduler.pid
+output/_*.json
+output/_*.txt
+output/_*.png
