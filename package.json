@@ -1,0 +1,17 @@
+{
+  "name": "mma-news-engine",
+  "version": "3.0.0",
+  "description": "MMA makemyapp news Engine - Daily AI News Auto-Generator for Instagram + LinkedIn with Captions",
+  "main": "generate.js",
+  "scripts": {
+    "generate": "node generate.js",
+    "schedule": "node scheduler.js",
+    "start": "node scheduler.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0",
+    "playwright": "^1.60.0"
+  },
+  "author": "makemyapp news",
+  "license": "MIT"
+}
